@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+   
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: rgb(243, 239, 239);
+}
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(243, 239, 239);
+    z-index:3;
+    
+}
+
+.header {
+    
+    &_logo
+    {
+        overflow: hidden;
+	z-index: 5;
+        font-size: 24px;
+        
+    }
+    &_container {
+        max-width: 1170px;
+        margin: 0px auto;
+        padding: 0 15px;
+    }
+    &_body
+    {
+        background: #fff;
+        display: flex;  
+        justify-content: space-between;
+       height: 100px;
+       align-items: center;
+        position: relative;
+        
+    }
+    &_menu {
+        display: flex;
+       
+    }
+    &_list {
+        position: relative;
+        top: 0;
+        z-index: 4;
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+    }
+    &_list:hover {
+        text-decoration: underline;
+    }
+    &_link {
+        padding: 0 11px;
+    }
+    @media(max-width:700px) { 
+      &_body
+      {
+        height: 60px;
+       }
+       .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+    }
+    .header_burger.active span {
+        transform: scale(0);
+    }
+    .header_burger span {
+        position: absolute;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        top: 9px;
+        z-index: 11;
+        transition-duration: 1s;
+    }
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+       
+        
+    }
+    .header_menu {
+       text-align: center;
+      
+    }
+    .header_list {
+        color: white; 
+        font-size: 18px;
+    }
+    .header_list::after {
+        justify-content: center;
+        z-index: 11;
+        content: "";
+        background-color: black;
+    
+        width: 100px;
+        height: 2px;
+        
+        transition-duration: 0.3s;
+    }
+    .header_link {
+        
+       padding: 10px;
+    }
+    .header_menu li {
+        color: white; 
+        font-size: 17px;
+      
+    }
+    .header_burger:before,
+    .header_burger:after
+    {
+        z-index: 11;
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition-duration: 0.3s;
+    }
+    .header_burger:before {
+        top: 0;
+    }
+    .header_burger:after {
+        bottom: 0;
+    }
+  
+    .header_burger.active:before 
+    {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active:after 
+    {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header_menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+        padding: 80px 0 0 0; 
+        display: block;
+        transition: all 0.2s ease-in;
+      
+        
+    }
+    .header_menu.active {
+        top: 0;
+    }
+
+}
+}
+.body {
+    margin-top: 100px;
+}
+
+.body {
+    
+    &_container {
+        max-width: 1170px;
+        margin: 0px auto;
+        padding: 0 15px;
+    }
+    &_title {
+        font-size: 86px;
+        text-align: center;
+        margin-top: 120px;
+        text-align: center;
+        padding: 0 0 90px 0;
+        
+    }
+    &_background {
+        
+        position: relative;
+        z-index: 1;
+    }
+    &_background img {
+        position: absolute;
+        width: 100%;
+         height: 454px;
+         top: 0;
+         left: 0;
+         object-fit: cover;
+         z-index: 1;
+     }
+    .body_grid {
+        position: relative;
+        top: 200px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+        
+        gap: 10px;
+        z-index: 2;
+    }
+    .body_grid_text 
+    {
+        
+        background: #fff;
+        padding:  137px 50px;
+        border: 1px solid #000;
+    }
+    &_grid_text strong {
+        font-size: 20px;
+    }
+    &_grid_text {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &_grid_text button {
+        background-color: rgb(39, 125, 206);
+        width: 130px;
+        padding: 14px 0;
+       position: relative;
+       top: 10px;
+
+       left: 0;
+    }
+    &_grid_text a {
+        font-size: 16px;
+        color: white;
+    }
+    .body_grid_3 {
+        background: url("D:/портфолиум/internet/img/pexelsphoto2884590.jpeg") 0 0/100% 100% no-repeat;
+    }
+    &_dungeon {
+        gap: 15px;
+        display: grid;
+        grid-template-columns:  2fr 1.3fr;
+        grid-template-rows:  500px;
+        margin-top: 370px;
+    }
+    &_asstitle {
+        text-align: center;
+        font-size: 46px;
+        text-shadow: 1px 1px 2px black;
+        color: black;
+        padding: 0px 0px 28px 0;
+    }
+    &_titleoff {
+        font-size: 22px;
+        text-align: center;
+        padding: 0px 0px 70px 0;
+    }
+    &_text {
+        text-align: center;
+        font-size: 19px;
+        padding: 0px 0px 20px 0;
+     line-height: 28px;
+    }
+    &_button button {
+        background-color: #faf5f5;;
+        width: 140px;
+        padding: 16px 0;
+        font-size: 18px;
+        border: 1.7px solid black;
+    }
+    &_button button:hover {
+        border: none;
+    }
+    &_button {
+        text-align: center;
+    }
+}

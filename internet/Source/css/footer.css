@@ -1,0 +1,150 @@
+@charset "UTF-8";
+.footer_header {
+  background: black;
+  color: white;
+  margin: 100px 0;
+}
+.footer_header_title {
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.footer_header_title_2 {
+  padding: 0 0 50px 0;
+  text-align: center;
+}
+.footer_header .footer_header_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 288px 288px;
+  grid-template-rows: 288px 288px;
+}
+.footer_header .footer_header_grid > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.footer_header .footer_header_grid > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+.footer_header .footer_header_grid > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.footer_header .footer_header_grid > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+.footer_header .footer_header_grid > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+.footer_header .footer_header_grid > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+.footer_header .footer_header_grid > *:nth-child(7) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+.footer_header .footer_header_grid > *:nth-child(8) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+}
+.footer_header .block_1 {
+  background: url("D:/портфолиум/internet/img/289d0988df9ccafe391c5a296f327b0e.png") 0 0/100% 100% no-repeat;
+}
+.footer_header .block_2 {
+  background: url("D:/портфолиум/internet/img/f6999cf8d7fee900e76ee65fd1827c4f.png") 0 0/100% 100% no-repeat;
+}
+.footer_header .block_3 {
+  background: url("D:/портфолиум/internet/img/dcd4c46d0ca35931cafdc77fd8bb3568.png") 0 0/100% 100% no-repeat;
+}
+.footer_header .block_4 {
+  background: url("D:/портфолиум/internet/img/a6ac58a6e4e6965bce3fda2c36e43e94.png") 0 0/100% 100% no-repeat;
+}
+.footer_header .block_5 {
+  background: url("D:/портфолиум/internet/img/60daec789521593f3dd91cb1bb3d7d60.png") 0 0/100% 100% no-repeat;
+}
+.footer_header .block_6 {
+  background: url("D:/портфолиум/internet/img/dca2e7f841dc5201337d6b80dfffe9f6.png") 0 0/100% 100% no-repeat;
+}
+.footer_header .block_7 {
+  background: url("D:/портфолиум/internet/img/516d0cf7e883585853018116d942949c.png") 0 0/100% 100% no-repeat;
+}
+.footer_header .block_8 {
+  background: url("D:/портфолиум/internet/img/24f25b480b4e49ccb7c463893d04da4d.png") 0 0/100% 100% no-repeat;
+}
+
+.last_content_container {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.last_content_title, .last_content_title_1, .last_content_cum {
+  text-align: center;
+}
+
+.last_content_text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 12px 0;
+}
+
+.last_content_title {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.last_content_title_1 {
+  font-size: 32px;
+}
+
+.last_content_cum {
+  line-height: 24px;
+  font-size: 18.4px;
+  padding: 14px 0;
+}
+
+.fucking_button {
+  text-align: center;
+}
+
+.fucking_button button {
+  background-color: rgb(39, 125, 206);
+  width: 160px;
+  padding: 14px 0;
+  font-size: 18px;
+  color: white;
+}
+
+.footer {
+  color: white;
+  background: Black;
+}
+.footer_container {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 100px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.c {
+  text-align: center;
+}
+
+.fucking_button {
+  padding: 14px 0;
+}

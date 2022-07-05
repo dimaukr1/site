@@ -1,0 +1,269 @@
+@charset "UTF-8";
+.body_container {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+.body_title {
+  font-size: 86px;
+  text-align: center;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0 0 90px 0;
+}
+.body_background {
+  position: relative;
+  z-index: 1;
+}
+.body_background img {
+  position: absolute;
+  width: 100%;
+  height: 454px;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+.body .body_grid {
+  position: relative;
+  top: 200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 2fr 10px 2fr 10px 1fr;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  gap: 10px;
+  z-index: 2;
+}
+.body .body_grid_text {
+  background: #fff;
+  padding: 137px 50px;
+  border: 1px solid #000;
+}
+.body_grid_text strong {
+  font-size: 20px;
+}
+.body_grid_text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.body_grid_text button {
+  background-color: rgb(39, 125, 206);
+  width: 130px;
+  padding: 14px 0;
+  position: relative;
+  top: 10px;
+  left: 0;
+}
+.body_grid_text a {
+  font-size: 16px;
+  color: white;
+}
+.body .body_grid_3 {
+  background: url("D:/портфолиум/internet/img/pexelsphoto2884590.jpeg") 0 0/100% 100% no-repeat;
+}
+.body_dungeon {
+  gap: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 15px 1.3fr;
+  grid-template-columns: 2fr 1.3fr;
+  -ms-grid-rows: 500px;
+  grid-template-rows: 500px;
+  margin-top: 370px;
+}
+.body_dungeon > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.body_dungeon > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.body_asstitle {
+  text-align: center;
+  font-size: 46px;
+  text-shadow: 1px 1px 2px black;
+  color: black;
+  padding: 0px 0px 28px 0;
+}
+.body_titleoff {
+  font-size: 22px;
+  text-align: center;
+  padding: 0px 0px 70px 0;
+}
+.body_text {
+  text-align: center;
+  font-size: 19px;
+  padding: 0px 0px 20px 0;
+  line-height: 28px;
+}
+.body_button button {
+  background-color: #faf5f5;
+  width: 140px;
+  padding: 16px 0;
+  font-size: 18px;
+  border: 1.7px solid black;
+}
+.body_button button:hover {
+  border: none;
+}
+.body_button {
+  text-align: center;
+}
+
+.tass {
+  color: white;
+  background: #000;
+  margin: 60px 0;
+  padding: 60px 0;
+}
+.tass_container {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+.tass_title {
+  letter-spacing: 1.3px;
+  font-size: 23px;
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+.tass_ontitle {
+  font-size: 31px;
+  text-align: center;
+  padding: 0 0 17px 0;
+}
+.tass_text {
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+}
+.tass_img {
+  padding: 20px 0;
+}
+.tass_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.29fr 16px 0.29fr 16px 0.29fr;
+  grid-template-columns: 0.29fr 0.29fr 0.29fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+  padding: 45px 0 0 0;
+}
+.tass_grid_text {
+  font-size: 18px;
+  line-height: 25px;
+  padding: 18px 0;
+}
+.tass_grid_title {
+  font-size: 27px;
+}
+.tass .tass_grid_block {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.icon {
+  padding: 10px 0;
+}
+
+.tass_footer_title {
+  padding: 10px 0;
+}
+
+.tass_footer_container {
+  padding: 0 15px;
+  margin: 0px auto;
+  max-width: 1800px;
+}
+.tass_footer .tass_footer_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.3fr 1fr 1fr;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  -ms-grid-rows: 508px;
+  grid-template-rows: 508px;
+}
+.tass_footer .tass_footer_grid > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.tass_footer .tass_footer_grid > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+.tass_footer .tass_footer_grid > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.tass_footer .tass_footer_block_1 {
+  background: url("D:/портфолиум/internet/img/pexelsphoto259966.jpeg") 0 0/100% 100% no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tass_footer .tass_footer_block {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.tass_footer .tass_footer_block_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.tass_footer .block_content {
+  padding: 80px 0;
+  margin: 10px;
+}
+.tass_footer .tass_footer_title {
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0px black;
+}
+.tass_footer .img_title {
+  text-shadow: 1px 1px 0px black;
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+.tass_footer .tass_footer_text {
+  line-height: 24px;
+  font-size: 18px;
+}
+.tass_footer .tass_footer_button {
+  padding: 20px 0;
+}
+.tass_footer .tass_footer_button button {
+  background-color: rgb(39, 125, 206);
+  width: 160px;
+  padding: 14px 0;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.footer_header_title strong {
+  font-size: 22px;
+  padding: 0 0 0 0;
+}
+
+.footer_header_title {
+  margin: 18px 0;
+}
+
+.footer_header_title_2 strong {
+  font-size: 38px;
+}
